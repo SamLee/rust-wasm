@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello WebGL</title>
+  </head>
+  <body>
+    <canvas id="canvas" height="150" width="150"></canvas>
+    <script type="module">
+        import init, { start } from "./pkg/webgl.js";
+        await init();
+        start();
+    </script>
+  </body>
+</html>
